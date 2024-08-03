@@ -9,6 +9,8 @@ header {
     display: flex;
     width: 100%;
     height: 101px;
+    padding: 0 15px;
+    margin: 0 auto;
     background-color: #E43071;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +26,7 @@ header {
     height: 44px;
     margin-left: 36px;
     color: #fff;
+    text-decoration: none;
 }
 
 .header-buttons a{
@@ -45,10 +48,9 @@ header {
 }
 
 header img {
-    
-    width: 20.12px;
-    height: 19.28px;
-    margin-right: -200px;
+    margin-right: -250px;
+    width: 20px;
+    height: 20px;
 }
 
 header button {
@@ -67,4 +69,106 @@ header button {
 
 header span {
     opacity: 0.5;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 695px;
+    justify-content: space-between;
+    
+}
+
+.img-container {
+    background-image: url(img/Female\ working\ out.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:1864px;
+    height: 900px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.section-1-text {
+    position: relative;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center;
+    color: #fff;
+    width: 778px;
+    height: 172px;
+    margin: auto auto;
+}
+
+.img-container span{
+    color: pink;
+}
+
+.img-container img {
+    position: absolute;
+    width: 100%;
+    align-self: self-end;
+}
+
+#section-1-button {
+    position: absolute;
+    bottom: 200px;
+    width: 237px;
+    height: 68px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #fff;
+    background-color: #E43071;
+    border: none;
+    border-radius: 200px;
+}
+
+.selection-buttons {
+    position: absolute;
+    display:flex;
+    bottom: 31px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.selection-round-1 {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.selection-round-2 {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.selection-round-3 {
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #E43071;
+}
+
+.selection-round-4 {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.selection-round-5 {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
 }
