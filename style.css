@@ -2,8 +2,11 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
     font-family: "Poppins", sans-serif;
 }
+
+
 
 header {
     display: flex;
@@ -176,6 +179,7 @@ main {
 
 .main-section-2 {
     background-color: #fff;
+    height: 900px;
 }
 
 .section-2-container {
@@ -237,4 +241,113 @@ main {
     background-color: #fff;
     margin-top: 20px;
     border: 2px solid #E43071
+}
+
+.img-cont-sec-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(main-section-3-img/Woman\ doing\ situps.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    color: #fff;
+}
+
+.img-cont-sec-3 h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    width: 1300px;
+    height: 90px;
+    margin-bottom: 250px;
+    white-space: nowrap;
+}
+
+.img-cont-sec-3 p {
+    position: absolute;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+    width: 533px;
+    height: 106px;
+}
+
+.sec-3-main-button {
+    position: absolute;
+    margin-top: 150px;
+    width: 237px;
+    height: 68px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #fff;
+    background-color: #E43071;
+    border: none;
+    border-radius: 200px;  
+}
+
+.section-1-button {
+    position: absolute;
+    margin-top: 350px;
+    width: 237px;
+    height: 68px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #fff;
+    background-color: #E43071;
+    border: none;
+    border-radius: 200px;
+}
+
+.sec3-selection-buttons {
+    position: absolute;
+    display:flex;
+    margin-top: 800px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.sec3-selection-round-1 {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.sec3-selection-round-2 {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.sec3-selection-round-3 {
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #E43071;
+}
+
+.sec3-selection-round-4 {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.sec3-selection-round-5 {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
 }
