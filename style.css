@@ -188,7 +188,7 @@ main {
     margin: 0 auto;
     background-color: #fff;
     width: 100%;
-    height: 720px;
+    height: 700px;
     align-items: center;
     justify-content: center;
 }
@@ -350,4 +350,63 @@ main {
     border-radius: 50%;
     width: 15px;
     height: 15px;
+}
+
+.main-section-4 {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sec4-title {
+    color: #E43071;
+    width: 383px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+
+.sec4-main-text {
+    color:#424242;
+    width: 489px;
+    height: 163px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    margin-right: 900px;
+}
+
+.sec4-button {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #E43071;
+    width: 237px;
+    height: 68px;
+    border-radius: 200px;
+    background-color: #fff;
+    margin-top: 10px;
+    border: 2px solid #E43071
+}
+
+.sec4-weights {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 300px;
+}
+
+.sec4-gym-room {
+    position: absolute;
+    margin-left: 700px;
 }
