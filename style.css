@@ -11,6 +11,7 @@
 header {
     display: flex;
     width: 100%;
+    max-width: 1864px;
     height: 101px;
     padding: 0 15px;
     margin: 0 auto;
@@ -90,10 +91,12 @@ main {
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    max-width: 1864px;
     height: 900px;
     display:flex;
     align-items:center;
     justify-content:center;
+    margin: 0 auto;
 }
 
 .section-1-text {
@@ -251,8 +254,10 @@ main {
     display:flex;
     align-items: center;
     justify-content: center;
+    max-width: 1864px;
     height: 900px;
     color: #fff;
+    margin: 0 auto;
 }
 
 .img-cont-sec-3 h1 {
@@ -421,6 +426,7 @@ main {
     background: linear-gradient(to bottom, #ffffff, #F4E3E9);
     align-items: center;
     justify-content: center;
+    max-width: 1864px;
 }
 
 .sec5-title-text{
@@ -449,6 +455,13 @@ main {
     line-height: 27px;
     text-align: left;
     color: #424242;
+}
+
+.staple-title-reviews {
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    opacity: 0.02;
 }
 
 .reviews-block-1 {
@@ -684,4 +697,131 @@ main {
     height: 34px;
     top: 214px;
     left: 143px;
+}
+
+.section-container-app {
+    position: relative;
+    background-color: #E43071;
+    max-width: 1864px;
+    height: 630px;
+    margin: 0 auto;
+}
+
+.section-app-title {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    width: 412px;
+    height: 60px;
+    top: 120px;
+    left: 350px;
+}
+
+.section-app-main-text {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    width: 489px;
+    height: 163px;
+    top: 190px;
+    left: 350px;
+}
+
+.download-app {
+    position: absolute;
+    color: #FFFFFF99;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 122px;
+    height: 24px;
+    top: 360px;
+    left: 350px;
+}
+
+.app-badge {
+    display: flex;
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    top: 400px;
+    left: 350px;
+}
+
+.app-badge img {
+    margin-right: 15px;
+}
+
+.phone-1-app {
+    position: absolute;
+    bottom: 150px;
+    left: 1100px;
+}
+
+.phone-2-app {
+    position: absolute;
+    top: 231px;
+    left: 1370px; 
+}
+
+.section-7-social {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    background-color: #EDEDED;
+    max-width: 1864px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.title-social {
+    color: #E43071;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    width: 126px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.social-networks {
+    display: flex;
+    column-gap: 130px;
+}
+
+.button-facebook {
+    border: none;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 130px;
+    height: 130px;
+}
+
+.button-youtube {
+    border: none;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 130px;
+    height: 130px;
+}
+
+.button-instagram {
+    border: none;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 130px;
+    height: 130px;
 }
