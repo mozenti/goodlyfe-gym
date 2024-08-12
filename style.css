@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: "Manrope", sans-serif;
     font-family: "Open Sans", sans-serif;
     font-family: "Poppins", sans-serif;
 }
@@ -824,4 +825,228 @@ main {
     background-color: #FFFFFF;
     width: 130px;
     height: 130px;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    background-color: #0B0D17;
+    max-width: 1864px;
+    height: 610px;
+    margin: 0 auto;
+}
+
+.footer-description-wrapper {
+    position: absolute;
+    top: 125px;
+    left: 215px;
+}
+
+.footer-description-title {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: center;
+    width: 120px;
+    height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-description-title span {
+    color: #E43071;
+}
+
+.footer-description-main-text {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    width: 255px;
+    height: 96px;
+    color: #D9DBE1;
+    margin-top: 30px;
+}
+
+.footer-social-networks-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-logo-svg {
+    display: flex;
+    background-color: #424242;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+}
+
+.footer-quick-links-wrapper {
+    position: absolute;
+    top: 125px;
+    left: 600px;
+}
+
+.footer-quick-links-title {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    width: 255px;
+    height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-quick-links-main-text a{
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 160px;
+    height: 24px;
+    color: #D9DBE1;
+    margin-top: 15px;
+}
+
+.footer-guides-wrapper {
+    position: absolute;
+    top: 125px;
+    left: 980px;
+}
+
+.footer-guides-title {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    width: 255px;
+    height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-guides-main-text a{
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 160px;
+    height: 24px;
+    color: #D9DBE1;
+    margin-top: 15px;
+}
+
+.footer-connection-wrapper {
+    position: absolute;
+    top: 125px;
+    left: 1330px;
+}
+
+.footer-connection-title {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    width: 255px;
+    height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-connection-main-text {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 223px;
+    height: 24px;
+    color: #D9DBE1;
+}
+
+.footer-connection-main-text-1 {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    column-gap: 10px;
+}
+
+.footer-connection-main-text-2 {
+    display: flex;
+    margin-bottom: 20px;
+    column-gap: 10px;
+}
+
+.footer-connection-main-text-3 {
+    display: flex;
+    column-gap: 10px;
+}
+
+.sub-footer-wrapper {
+    position: absolute;
+    top: 550px;
+}
+
+.sub-footer-title {
+    position: absolute;
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 234px;
+    height: 24px;
+    left: 210px;
+}
+
+.sub-footer-main-text {
+    display: flex;
+    position: absolute;
+    left: 1200px;
+    align-items: center;
+}
+
+.sub-footer-main-text a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9DBE1;
+    margin-right: 10px;
+}
+
+.sub-footer-main-text p {
+    color: #D9DBE1;
+    margin-right: 10px;
+}
+
+.sub-footer-main-text-1 {
+    width: 126px;
+}
+
+.sub-footer-main-text-2 {
+    width: 87px;
+}
+
+.sub-footer-main-text-4 {
+    width: 70px;
 }
